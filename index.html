@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <!-- <link rel="stylesheet" href="../css/log-in.css"> -->
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <header >
+        <nav class="nav1" id="homee" onclick="display()">
+            <div class="dot">
+                <div></div>
+                <div></div>
+                <div></div>    
+            </div>
+            <div class="message">
+                <h3>welcome to superclone!</h3> <br>
+                <p>for any complain or retification, message our admins directly                 <a href="tel:+2348105154901">here</a></p>
+            </div>
+            <div class="signout">
+                <h3><a href="">log out</a></h3>
+            </div>
+            <!-- <ul>
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="../pages/about.html">about</a>
+                </li>
+                <li>
+                    <a href="./">our services</a>
+                </li>
+                <li>
+                    <a href="">contact us</a>
+                </li>
+                <li>
+                    <a href="">FAQs</a>
+                </li>
+
+            </ul> -->
+             <!-- <a href="#drawer" class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>     -->
+            </div>
+        </nav>
+    </header>
+    <!-- <aside id="drawer">
+        <a href="#home" class="menu">
+            <h1><strong>X</strong></h1>
+        </a>    
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="./super-clone/pages/about.html">about</a>
+                </li>
+                <li>
+                    <a href="./">our services</a>
+                </li>
+                <li>
+                    <a href="">contact us</a>
+                </li>
+                <li>
+                    <a href="">FAQs</a>
+                </li>
+                <li>
+                    <a href="./log-in.html">log in</a>
+                </li>
+                <li>
+                    <a href="./register.html">register</a>
+                </li>
+
+            </ul> 
+
+        </nav>
+    </aside> -->
+    <main>
+        <aside id="sideNav" class="hidden">
+            <div id="sidee">
+                <div id="home" class="side">
+                    <div class="homm">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>                    </div>
+                    <a href="../pages/home.html" id="hom" class="hide">dashboard</a>
+                </div>
+                <div id="airtime" class="side">
+                    <div class="ai">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <a href="../airtime.html" id="air" class="hide">buy airtime</a>
+                </div>
+                <div id="data" class="side">
+                    <div class="data">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
+                    </div>
+                    <a href="../pages/data.html" id="dat" class="hide">buy data</a>
+                </div>
+                <div id="login" class="side">
+                    <div class="logi">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path></svg>
+                    </div>
+                    <a href="../pages/log-in.html" id="log" class="hide">log in</a>
+                </div>
+                <div id="out" class="side">
+                    <div class="out">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
+                    </div>
+                    <a href="../pages/log-in.html" id="outt" class="hide">log out</a>
+                </div>
+                <div id="reg" class="side">
+                    <div class="log">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"></path></svg>
+                    </div>
+                    <a href="../pages/register.html" id="regg" class="hide">register</a>
+                </div>
+                <div id="set" class="side">
+                    <div class="set">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <a href="" id="setting" class="hide">setting</a>
+                </div>
+            </div>
+        </aside>
+
+        <section class="sec1">
+                <div class="refferal">
+                    <p>referral link:https://superjara.com </p>
+                </div>
+                <div class="wallet">
+                    <input type="button" value="fund wallet">
+                </div>
+        </section>
+        <section class="sec2">
+            <div class="greet">
+                <p>good day, <b id="name"></b></p>
+            </div>
+            <div class="package">
+                <p><b>package:</b> smart earner</p>
+            </div>
+            <div class="flex">
+                <div>
+                    <p>FAQs regards affliate marketing</p>
+                </div>
+                <div>
+                    <p>FAQs regards top users package</p>
+                </div>
+                <div>
+                    <p>FAQs regards API users</p>
+                </div>
+            </div>
+            <div class="btn">
+                <input type="button" value="WEMA" class="wema">
+                <input type="button" value="UBA" class="uba">
+            </div>
+        </section>
+        <section class="sec3">
+            <div class="wemai">
+                <img src="" alt="">
+            </div>
+            <div class="charge">
+                <div class="details">
+                    <p>Acount number: 3115567105</p>
+                    <p>Account name: Dahunsi Halima</p>
+                    <p>Bank name: WEMA Bank</p>
+                    <div class="fade">
+                        <p>AUTOMATED BANK TRANSFER</p>
+                    </div>
+                    <P>Make transfer to this account to fund your wallet</P>
+    
+                </div>
+                <div >
+                    <p class="percent">1%</p>
+                    <p class="cha">charge</p>    
+                </div>
+            </div>
+        </section>
+        <section class="sec4">
+            <marquee behavior="" direction="">Dear esteem customer,<svg class="w-6 h-6" id="happy" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> thank you for patronizing superclone.com</marquee>
+            <div class="trans">
+                <div>
+                    <div class="icon1"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
+                    <p>airtime transactions</p>
+                </div>
+                <div>
+                    <div class="icon2"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
+                    <p>data transactions</p>
+                </div>
+                <div>
+                    <div class="icon3"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
+                    <p>wallet summary</p>
+                </div>
+                <div>
+                    <div class="icon4"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg></div>
+                    <p>upgrade to affliate <br> #100,000</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="sec5">
+            <div class="plan">
+                <div class="bonus">
+                    <div class="icn1">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <div>
+                        <p>wallet balance</p>
+                        <p>#530</p>    
+                    </div>
+                </div>
+                <div class="bonus">
+                    <div class="icn2">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+                    </div>
+                    <div>
+                        <p>refferal balance</p>
+                        <p>#530</p>    
+                    </div>
+                </div>
+                <div class="bonus">
+                    <div class="icn3">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <div>
+                        <p>my total refferal</p>
+                        <p>#530</p>    
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="sec6">
+            <div class="faq">
+                <p>notifications:</p>
+                <span>your monnify account has been credited with #2,000</span>
+                <div class="not">
+                    <a href="">all messages</a>
+                </div>
+            </div>
+            <div class="faq">
+                <p>FAQs:</p>
+                <span>please go through the FAQs to have a better knowledge of superclone platform.</span>
+                <div class="faq1">
+                    <a href="../faq.html" >FAQs</a>
+                </div>
+            </div>
+            <div class="faq">
+                <p>support team:</p>
+                <span>have any message for us? kindly direct all messages to our support teams on whatsapp.</span> <br>
+            <div class="app">
+                <a href="" >whatsapp us</a> <br>
+                <a href="">join our platform </a>
+            </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="box">
+                <div class="imag">
+                    <img src="./images/backgrounds/buy data.jpg" alt="">
+                </div>
+                <a href="">buy data</a>
+            </div>
+            <div class="box">
+                <div class="imag">
+                    <img src="./images/backgrounds/airtime.jpg" alt="">
+                </div>
+                <a href="">buy airtime</a>
+            </div>
+            <div class="box">
+                <div class="imag">
+                    <img src="./images/backgrounds/tocash.jpg" alt="">
+                </div>
+                <a href="">data card printing</a>
+            </div>
+            <div class="box">
+                <div class="imag">
+                    <img src="./images/backgrounds/result.jpg" alt="">
+                </div>
+                <a href="">result checker</a>
+            </div>
+            <div class="box">
+                <div class="imag">
+                    <img src="./images/backgrounds/electr.jpg" alt="">
+                </div>
+                <a href="">electricity bills</a>
+            </div>
+            <div class="box">
+                <div class="imag">
+                    <img src="./images/backgrounds/topup.jpg" alt="">
+                </div>
+                <a href="">airtime top up</a>
+            </div>
+            <div class="box">
+                <div class="imag">
+                    <img src="./images/backgrounds/airtime.jpg" alt="">
+                </div>
+                <a href="">airtime to cash</a>
+            </div>
+            <div class="box">
+                <div class="imag">
+                    <img src="./images/backgrounds/sms.jpg" alt="">
+                </div>
+                <a href="">bulk SMS</a>
+            </div>
+            <div class="box">
+                <div class="imag">
+                    <img src="./images/backgrounds/cable.jpg" alt="">
+                </div>
+                <a href="">cable subscriptions</a>
+            </div>
+            <div class="box">
+                <div class="imag">
+                    <img src="./images/backgrounds/referral.jpg" alt="">
+                </div>
+                <a href="">bonus to wallets</a>
+            </div>
+
+        </section>
+    </main>
+<!-- <footer>
+    <div class="flex2">
+        <div class="footer1">
+                <a href="">home</a>
+                <a href="">contact</a>
+                <a href="..">about</a>
+                <a href="">our services</a>
+            </div>
+                <div class="footer1">
+                <a href="">FAQs</a>
+                <a href="">privacy & policies</a>
+                <a href="..">log in</a>
+                <a href="">terms & conditions</a>
+            </div> -->
+        <!-- <div class="footer2">
+                <a href="">products</a>
+                <a href="">help </a>
+                <a href="">our services</a>
+                <div class="contact">
+                <a href="">
+                    <img src="../images/instagram.jpg" alt="instagram">
+                </a>
+                <a href="..">
+                    <img src="./images/whatsapp.png" alt="whatsapp">
+                </a>
+                <a href="..">
+                    <img src="../images/facebook.png" alt="facebook">
+                </a>
+                <a href="..">
+                    <img src="../images/twitter.jpg" alt="twitter">
+           </div>
+    </div>
+</footer> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="../css/script.js"></script>
+
+</body>
+</html>

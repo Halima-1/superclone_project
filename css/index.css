@@ -1,0 +1,664 @@
+*{
+    padding: none;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.nav1{
+    background-color: rgb(167, 70, 167);
+    width: 100%;
+    padding: 15px 0;
+    padding-right: 400px;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+   /* position: fixed;
+    top: 0;*/
+}
+.nav1 h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    margin: 20px 0;
+    margin-left: 0;
+}
+.nav1 h1 :hover{
+    background-color: tan;
+    color: white;
+}
+.nav1 a{
+    color: rgb(248, 248, 252);
+    font-size: 17px;
+}
+.nav1 li :hover{
+    background-color: rgb(128, 83, 25);
+    color: white;
+}
+.nav1 li :active{
+    color: brown;
+}
+
+
+.nav1 span{
+    color: rgb(45, 6, 117);
+    font-size: 30px;
+
+}
+.menu span{
+    display: none;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+.nav1 ul{
+    display: flex;
+justify-content: center;
+font-size: 17px;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+.nav1 li{
+    list-style: none;
+    margin: 20px 0;
+}
+#drawer{
+   display: none; 
+    width: 100%;
+    height: 10px;
+    background-color: rgb(26, 23, 23);
+    /*position: fixed;
+    left: 0;
+    top: 0;*/
+}
+.menu{
+    display: none;
+    width: 30px;
+    display: flex;
+    height: 3rem;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#drawer:target{
+    display: block;
+}
+#drawer li{
+    list-style: none;
+    color: white;
+    margin: 20px;
+
+}
+#drawer a{
+    color: white;
+    text-align: center;
+}
+
+.background{
+    width: 100%;
+    padding: 50px;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.content1{
+    margin:20px auto;
+    padding: 50px;
+    width: 450px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(7, 7, 7, 0.4 );
+
+}
+.content1 h2{
+    color: rgb(58, 5, 58);
+    font-weight: 300px;
+}
+.content1 h1{
+    color: white;
+    margin: 20px 0;
+    font-weight: 500px;
+}
+.content1 p{
+    color: rgb(214, 207, 207);
+}
+.btn1 a{
+text-decoration: none;
+color: white;
+font-size: 15px;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    }
+    
+.btn1 {
+    width: 150px;
+    color: white;
+    background-color: rgb(78, 78, 243);
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    margin: 10px;
+}
+.btn2{
+   background-color: rgb(253, 188, 23);
+   width: 120px;
+   color: white;
+   padding: 12px;
+   border-radius: 12px;
+   border: none;
+   margin: 10px;
+
+}
+.btns{
+    margin-top: 20px;
+}
+button{
+    font-size: 16px;
+}
+.images{
+    width: 48%;
+    margin-top: 150px;
+}
+.images img{
+    width: 80%;
+    margin: auto;
+}
+.display1{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.display1 ul{
+    display: flex;
+    width: 100%;
+}
+.display1 img{
+width: 80px;
+height: 80px;
+margin: 20px 0;
+border-radius: 100%;
+}
+.display1 li{
+    list-style: none;
+    width: 30%;
+    padding: 10px;
+    background-color: bisque;
+    margin: 0 auto;
+    border-radius: 20px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+}
+.pricing{
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.image{
+    width: 50%;
+}
+.price{
+    width: 50%;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+
+}
+.flex img{
+    width: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+.mtn{
+    padding: 10px;
+    width: 80%;
+    background-color: azure;
+}
+.mtn p{
+    margin-top: 15px;
+}
+.contact{
+    display: flex;
+}
+.contact img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.insta{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+
+}
+.flex2{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.flex2 .footer1{
+    width: 33%;
+    list-style: none;
+    display: block;
+
+}
+.footer1 a{
+    color: white;
+    display: block;
+    font-size: 17px;
+
+}
+.footer2 a{
+    color: white;
+    display: block;
+
+}
+
+
+
+@media(max-width:768px){
+    *{
+        padding: none;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        text-transform: capitalize;
+    }
+    .nav1{
+        padding: 15px;
+        padding-right: 50px;
+    }
+    .nav1 h1{
+        font-weight: 300;
+        font-size: 25px;
+    }
+    .nav1 a{
+        font-size: 17px;
+    }
+    .nav1 span{
+        color: red;
+        font-size: 25px;
+    
+    }
+    
+        .background{
+        width: 100%;
+        padding: 20px;
+        margin: 50px auto;
+    }
+    .content1{
+        padding: 20px auto;
+        width: 350px;    
+    }
+    .content1 h2{
+        font-weight: 200px;
+        font-size: 17px;
+    }
+    .content1 h1{
+        font-weight: 300px;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .content1 p{
+        font-size: 13px;
+    }
+    .btn1 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        }
+        .btn2 a{
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            }
+
+    .btn1{
+        width: 125px;
+        color: white;
+        padding: 10px;
+        border: none;
+
+    }
+    .btn2{
+       background-color: rgb(253, 188, 23);
+       width: 100px;
+       color: white;
+       padding: 10px;
+       border-radius: 12px;
+       border: none;
+    }
+    .btns{
+        display: flex;
+        margin-top: 20px ;
+    }
+    button{
+        font-size: 12px;
+        border: none;
+    }
+    .display1{
+        justify-content: space-around;
+        width: 100%;
+        padding-right: 20px;
+    }
+    .display1 ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .display1 img{
+    width: 50px;
+    height: 50px;
+    }
+    .display1 li{
+        width: 32%;
+        padding: 10px;
+        margin: 0 20px;
+        border-radius: 20px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .pricing{
+        width: 100%;
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .images{
+        width: 50%;
+    }
+    .pricing img{
+        height: 100%;
+        width: 100%;
+    }
+    .price{
+        width: 50%;
+    }
+    .flex{
+        display: flex;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .flex img{
+        width: 70px;
+        width: 70px;
+        border-radius: 100%;
+    }
+    .mtn{
+        padding: 10px;
+        width: 80%;
+        background-color: azure;
+    }
+    .contact{
+        display: flex;
+    }
+    .contact img{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+    .insta{
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+    
+    }
+    .flex2{
+        background-color: black;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px 0;
+    }
+    .flex2 .footer1{
+        width: 33%;
+        list-style: none;
+        display: block;
+    
+    }
+    .footer1 a{
+        color: white;
+        display: block;
+        font-size: 17px;
+    
+    }
+    .footer2 a{
+        font-size: 17px;
+        color: white;
+        display: block;
+    
+    }
+} 
+    
+    
+    @media(max-width:400px){
+        
+    .nav1{
+        padding: 10px 0;
+    }
+    .nav1 ul{
+        display: none;
+    }
+    .nav1 h1{
+        font-weight: 300;
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .nav1 a{
+        font-size: 12px;
+    }
+    .nav1 span{
+        color: red;
+        font-size: 25px;
+    
+    }
+    
+    #drawer{
+        display: none;
+         width: 70%;
+         height: 100%;
+         background-color: rgb(26, 23, 23);
+         position: fixed;
+         left: 0;
+         top: 0;
+     }
+     #drawer li:hover{
+        background-color: rgb(253, 188, 23);
+    }
+     .menu{
+         display: contents;
+         width: 30px;
+         display: flex;
+         height: 3rem;
+         flex-direction: column;
+         justify-content: space-around;
+     }
+     .menu span{
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: white;
+    }
+    .menu H1{
+        color: rgb(129, 116, 116);
+    }
+    /*#drawer{
+        display: none;
+    }*/
+        .background{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 50px;
+    }
+    .content1{
+        padding: 20px;
+        width: 300px;    
+    }
+    .content1 h2{
+        font-weight: 180px;
+        font-size: 17px;
+    }
+    .content1 h1{
+        font-weight: 200px;
+        font-size: 18px;
+        margin: 10px;
+    }
+    .content1 p{
+        font-size: 12px;
+    }
+    .btn1{
+        width: 110px;
+        color: white;
+        padding: 10px;
+        border: none;
+
+    }
+    .btn1 a{
+        text-decoration: none;
+        color: white;
+        font-size: 11px;
+        }
+        .btn2 a{
+            text-decoration: none;
+            color: white;
+            font-size: 11px;
+            }
+        
+    .btn2{
+       background-color: rgb(253, 188, 23);
+       width: 100px;
+       color: white;
+       padding: 10px;
+       border-radius: 12px;
+       border: none;
+    }
+    .btns{
+        display: flex;
+        margin-top: 10px ;
+    }
+    button{
+        font-size: 12px;
+        border: none;
+    }
+    .display1{
+        justify-content: center;
+        width: 100%;
+        padding-right: 15px;
+
+    }
+    .display1 ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 0;
+
+    }
+    .display1 img{
+    width: 50px;
+    height: 50px;
+    }
+    .display1 li{
+        width: 100%;
+        padding: 20px;
+        margin: 20px;
+        margin-left: 0;
+        border-radius: 20px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .pricing{
+        width: 100%;
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .images{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .pricing img{
+        height: 100%;
+        width: 100%;
+    }
+    .price{
+        width: 100%;
+    }
+    .flex{
+        display: flex;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .flex img{
+        width: 70px;
+        width: 70px;
+        border-radius: 100%;
+    }
+    .mtn{
+        padding: 10px;
+        width: 100%;
+        background-color: azure;
+    }
+    .contact{
+        display: flex;
+    }
+    .contact img{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+    .insta{
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+    
+    }
+    .flex2{
+        background-color: black;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px 0;
+    }
+    .flex2 .footer1{
+        width: 90%;
+        list-style: none;
+        display: block;
+    
+    }
+    .flex2 .footer2{
+        width: 90%;
+        list-style: none;
+        display: block;
+    
+    }
+
+    .footer1 a{
+        color: white;
+        display: block;
+        font-size: 17px;
+    
+    }
+    .footer2 a{
+        font-size: 17px;
+        color: white;
+        display: block;
+    
+    }
+}

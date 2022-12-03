@@ -1,0 +1,1117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.nav1{
+    background-color: rgb(167, 70, 167);
+    width: 100%;
+    padding:10px 25px;
+    display: flex;
+    justify-content: space-between;
+   position: fixed;
+    top: 0;
+    color: aliceblue;
+}
+.nav1 h3{
+    margin: 0;
+}
+.signout{
+    margin: 0;
+}
+.signout a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+#drawer{
+    display: none; 
+     width: 100%;
+     height: 10px;
+     background-color: rgb(26, 23, 23);
+ }
+ .menu{
+     display: none;
+     width: 30px;
+     display: flex;
+     height: 3rem;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+ 
+ #drawer:target{
+     display: block;
+ }
+ #drawer li{
+     list-style: none;
+     color: white;
+     margin: 20px;
+ 
+ }
+ #drawer a{
+     color: white;
+     text-align: center;
+ }
+
+ main{
+    position: absolute;
+    top: 78px;
+    z-index: -10;
+    width: 100%;
+ }
+#sideNav{
+    background-color: rgb(2, 2, 26);
+    padding: 10px;
+    width: auto;
+    position: fixed;
+    top: 78px;
+    justify-content: center;
+}
+.side{
+    display: flex;
+}
+.hidden{
+    display: block;
+
+}
+.showing{
+    display: block;
+}
+
+.side:hover{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+}
+.side a{
+    color: rgb(15, 83, 143);
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+.side a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+.side a:visited{
+    color: rgb(44, 172, 44);
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+svg{
+    width: 30px;
+    height: 30px;
+    color: whitesmoke;
+    margin: 10px;
+}
+svg:hover{
+    color: black;
+}
+.dot div{
+    width: 15px;
+    height: 2px;
+    /* border-radius: 100%; */
+    color: white;
+    background-color: white;
+    margin:5px auto ;
+}
+.sec1{
+    width: 100%;
+    background-color: rgb(133, 37, 133);
+     position: relative;
+    right: 0; 
+    /* margin-left: 70px; */
+    z-index: -10;
+    text-align: center;
+    display: flex;
+    padding:50px 20px;
+    padding-left: 80px;
+    justify-content: space-between;
+}
+.refferal p{
+    color: aliceblue;
+    font-size: 15px;
+}
+.wallet input{
+    background-color: blue;
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 7px;
+    border: none;
+}
+.sec2{
+    /* position: relative; */
+    width: 90%;
+    background-color: rgb(245, 225, 245);
+    /* top: -25px; */
+    /* left: 20px; */
+    margin: auto;
+    /* margin-left: 20px; */
+    margin-right: 30px;
+    margin-top: -20px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    z-index: -10;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.flex div{
+    background-color: rgb(17, 83, 206);
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 1px 7px;
+}
+.greet{
+    /* display: flex;
+    justify-content: space-around; */
+    /* color: aliceblue; */
+    text-align: left;
+
+}
+.greet p{
+    border-bottom: 2px solid rgb(214, 170, 170);
+}
+.package{
+    text-align: center;
+    margin-top: 20px;
+}
+.wema{
+    border: none;
+    padding: 7px;
+    border-radius:2px 7px;
+    color: aliceblue;
+    background-color: blue;
+}
+.uba{
+    border: none;
+    padding: 7px;
+    border-radius:2px 7px;
+    color: aliceblue;
+    background-color: rgb(128, 128, 241);
+}
+.btn{
+    margin-top: 10px;
+}
+.sec3{
+    width: 90%;
+    background-color: rgb(133, 37, 133);
+    margin: auto;
+    margin-right: 30px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    z-index: -10;
+
+}
+.details{
+    color: aliceblue;
+}
+.details p{
+    margin-top: 10px;
+}
+.fade{
+    color: rgb(206, 195, 195);
+    margin-top: 25px;
+}
+.charge{
+    display: flex;
+    justify-content: space-between;
+}
+.percent{
+    color: aliceblue;
+}
+.cha{
+    color: rgb(206, 195, 195);
+
+}
+.sec4{
+    width: 90%;
+    background-color: rgb(245, 225, 245);
+    margin: auto;
+    margin-right: 30px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    z-index: -10;
+
+}
+marquee{
+    color: rgb(133, 37, 133);
+}
+#happy{
+    margin: 0;
+    color: rgb(27, 27, 23);
+    margin-top: 30px;
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 202, 16);
+    border-radius: 100%;
+}
+.trans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.trans div{
+    background-color: aliceblue;
+    border-radius:2px 10px;
+    padding: 5px;
+    color: rgb(54, 49, 49);
+}
+.icon1 svg{
+    width: 30px;
+    height: 30px;
+    color: rgb(26, 22, 22);
+    background-color: rgb(196, 92, 92);
+    padding: 6px;
+    border-radius: 7px;
+
+}
+.icon1{
+    border-radius: 7px;
+}
+.icon2 svg{
+    border-radius: 7px;
+    width: 30px;
+    padding: 6px;
+    height: 30px;
+    color: rgb(26, 22, 22);
+    background-color: rgb(55, 58, 182);
+
+}
+.icon2{
+    background-color: rgb(55, 58, 182);
+    padding: 6px;
+    border-radius: 7px;
+}
+.icon3 svg{
+    border-radius: 7px;
+    width: 30px;
+    padding: 6px;
+    height: 30px;
+    color: rgb(26, 22, 22);
+    background-color: rgb(206, 40, 11);
+
+}
+.icon4 svg{
+    border-radius: 7px;
+    width: 30px;
+    padding: 6px;
+    height: 30px;
+    color: rgb(26, 22, 22);
+    background-color: rgb(235, 221, 32);
+
+}
+.trans div{
+    display: flex;
+}
+.trans div > p{
+    margin-top: 20px;
+}
+.icn1 svg{
+    border-radius: 7px;
+    width: 50px;
+    padding: 10px;
+    height: 50px;
+    color: rgb(248, 246, 246);
+    background-color: rgb(235, 221, 32);
+
+}
+.icn2 svg{
+    border-radius: 7px;
+    width: 50px;
+    padding: 10px;
+    height: 50px;
+    color: rgb(253, 253, 253);
+    background-color: rgb(78, 10, 69);
+
+}
+.icn3 svg{
+    border-radius: 7px;
+    width: 50px;
+    padding: 10px;
+    height: 50px;
+    color: rgb(252, 247, 247);
+    background-color: rgb(15, 179, 51);
+
+}
+.bonus{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(24, 26, 27);
+    background-color: aliceblue;
+    border-radius: 2px 10px;
+    padding:10px 15px;
+    
+}
+.bonus p:nth-child(1){
+    margin-top: 15px;
+}
+.plan{
+    display: flex;
+    justify-content: space-around;
+    width: 98%;
+    margin: auto;
+
+}
+.sec5{
+    width: 90%;
+    background-color: rgb(253, 254, 255);
+    margin: auto;
+    padding: 30px;
+}
+.sec6{
+    width: 90%;
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
+    margin-top: 20px;
+    margin: auto;
+    margin-left: 70px;
+    /* position: relative;
+    right: 0px; */
+    /* margin:20px auto; */
+    
+}
+.faq{
+    width: 25%;
+    background-color: rgb(133, 37, 133);
+    padding:15px;
+    color: aliceblue;
+    /* display: inline-block; */
+    border-radius: 2px 10px;
+    float: left;
+    margin: 10px 20px;
+    /* clear: both; */
+}
+.app a{
+    background-color: rgb(34, 197, 34);
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 7px;
+    margin-top: 10px;
+    float: left;
+    clear: both;
+}
+.app{
+    /* display: flex;
+    justify-content: space-around; */
+    /* flex-direction: column; */
+}
+.faq span{
+    margin: 15px 0;
+    color: rgb(228, 215, 215);
+    font-size: 13px;
+}
+.faq p{
+    margin-bottom: 15px;
+}
+.faq1 a{
+    background-color: blue;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 7px;
+
+}
+.faq1{
+    margin-top: 20px;
+}
+.not a{
+    background-color: gold;
+    padding: 10px;
+    color: rgb(11, 78, 138);
+    text-decoration: none;
+    border-radius: 7px;
+}
+.not {
+    margin-top: 20px;
+}
+.container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-left: 70px;
+}
+.box{
+    width: 22%;
+    padding: 30px;
+    background-color: rgb(241, 239, 237);
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    /* border: 1px solid gray; */
+    /* box-shadow:  1px 1px; */
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.box a:hover{
+    text-decoration: underline;
+}
+.imag{
+    width: 120px;
+    height: 120px;
+    margin: 15px 0;
+    object-fit: fill;
+    margin: auto;
+}
+.imag img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:768px){
+    .nav1{
+        padding:10px 20px;
+        justify-content: space-between;
+
+    }
+    /* .message{
+        /* margin:0 15px; */
+        /* text-align: center; */
+    
+    .message h3{
+        font-size: 15px;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .message p{
+        margin-top: -10px;
+        font-size: 14px;
+    }
+
+    .signout a{
+        margin-right: 0px;
+        text-decoration: none;
+        font-size: 14px;
+        /* text-align: right;
+        justify-self: end; */
+    }
+    
+    svg{
+        width: 25px;
+        height: 25px;
+        color: whitesmoke;
+        margin: 10px;
+    }
+    .side-nav{
+        padding: 10px;
+        top: 70px;
+    }
+    .showing{
+        display: block;
+    }
+    .hidden{
+        display: none;
+    }
+    main{
+        position: absolute;
+        top: 68px;
+        z-index: -10;
+        width: 100%;
+     }
+    
+    .sec1{
+        width: 100%;
+        margin-right: 0;
+        padding:50px 20px 50px 40px;
+    }
+    .refferal p{
+        font-size: 15px;
+    }
+    .wallet input{
+        padding: 6px;
+        border-radius: 5px;
+    }
+    .sec2{
+        position: relative;
+        width: 90%;
+        top: -15px;
+        right: 25px;
+        margin-left: 65px;
+        padding: 50px 30px 20px 30px;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .flex div{
+        font-size: 14px;
+        margin-top: 15px;
+
+    }
+    
+    .package{
+        font-size: 14px;
+    }
+    .wema{
+        font-size: 12px;
+    }
+    .uba{
+        font-size: 12px;
+    }
+    .btn{
+        margin-top: 10px;
+    }
+    .sec3{
+        font-size: 15px;
+        margin: auto;
+        margin-top: -15px;
+    
+    }
+    .fade{
+        margin-top: 20px;
+    }
+    
+    .sec4{
+        width: 90%;
+        margin: auto;
+        padding: 50px 30px;
+        border-radius: 10px;
+        z-index: -10;
+    
+    }
+    marquee{
+        color: rgb(133, 37, 133);
+    }
+    #happy{
+        margin-top: 30px;
+        margin-bottom: -5px;
+        width: 20px;
+        height: 20px;
+    }
+    .trans{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+    .trans div{
+        background-color: aliceblue;
+        border-radius:2px 10px;
+        padding: 5px;
+        margin-top: 10px;
+        width: 45%;
+        color: rgb(54, 49, 49);
+    }
+    .icon1 svg{
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        border-radius: 7px;
+        margin-top: -4px;
+    
+    }
+    .icon1{
+        border-radius: 7px;
+    }
+    .icon2 svg{
+        border-radius: 7px;
+        width: 30px;
+        padding: 2px;
+        height: 30px;
+        margin-top: -4px;
+
+    
+    }
+    .icon2{
+        padding: 6px;
+        border-radius: 7px;
+    }
+    .icon3 svg{
+        border-radius: 7px;
+        width: 30px;
+        padding: 2px;
+        height: 30px;
+        margin-top: -4px;
+    
+    }
+    .icon4 svg{
+        border-radius: 7px;
+        width: 30px;
+        padding: 2px;
+        height: 30px;
+        margin-top: -4px;
+    
+    }
+    .trans div{
+        display: flex;
+        justify-content: space-around;
+    }
+    .trans div > p{
+        margin-top: 10px;
+    }
+    .icn1 svg{
+        border-radius: 7px;
+        width: 50px;
+        padding: 10px;
+        height: 50px;    
+    }
+    .icn2 svg{
+        border-radius: 7px;
+        width: 50px;
+        padding: 10px;
+        height: 50px;
+        color: rgb(253, 253, 253);
+        background-color: rgb(78, 10, 69);
+    
+    }
+    .icn3 svg{
+        border-radius: 7px;
+        width: 50px;
+        padding: 10px;
+        height: 50px;
+    
+    }
+    .bonus{
+        display: flex;
+        justify-content: space-between;
+        color: rgb(24, 26, 27);
+        background-color: aliceblue;
+        border-radius: 2px 10px;
+        padding:10px 15px;
+        width: 30%;
+        
+    }
+    .bonus p:nth-child(1){
+        margin-top: 15px;
+    }
+    .plan{
+        display: flex;
+        justify-content: space-around;
+        width: 99%;
+        margin: auto;
+    
+    }
+    .sec5{
+        width: 90%;
+        background-color: rgb(253, 254, 255);
+        margin: auto;
+        padding: 30px;
+    }
+    .sec6{
+        width: 90%;
+        margin-top: 20px;
+        margin: auto;
+        margin-left: 70px;
+    }
+    .faq{
+        width: 25%;
+        padding:15px;
+        border-radius: 2px 10px;
+        float: left;
+        margin: 10px 20px;
+    }
+    .app a{
+        background-color: rgb(34, 197, 34);
+        color: white;
+        text-decoration: none;
+        padding: 6px;
+        font-size: 12px;
+        border-radius: 7px;
+        margin-top: 10px;
+    }
+    .faq span{
+        margin: 15px 0;
+        color: rgb(228, 215, 215);
+        font-size: 13px;
+    }
+    .faq p{
+        margin-bottom: 15px;
+    }
+    .faq1 a{
+        padding: 7px;
+        border-radius: 7px;
+        font-size: 10px;
+    
+    }
+    .faq1{
+        margin-top: 20px;
+    }
+    .not a{
+        padding: 7px;
+        text-decoration: none;
+        border-radius: 7px;
+    }
+    .not {
+        margin-top: 20px;
+    }
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+    .box{
+        width: 30%;
+        padding: 30px;
+        margin-top: 20px;
+        border-radius: 6px;
+    }
+    .box a{
+        font-size: 14px;
+    }
+    .box a:hover{
+        text-decoration: underline;
+    }
+    .imag{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    .imag img{
+        width: 100%;
+    }
+}
+@media(max-width:400px){
+    .nav1{
+        padding:10px ;
+        justify-content: space-between;
+
+    }
+    .message{
+        margin:0 15px;
+        text-align: center;
+    }
+    .message h3{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .message p{
+        margin-top: -10px;
+        font-size: 12px;
+    }
+
+    .signout a{
+        /* margin-right: 10px; */
+        text-decoration: none;
+        font-size: 12px;
+    }
+    
+    svg{
+        width: 20px;
+        height: 20px;
+        color: whitesmoke;
+        margin: 10px;
+    }
+    #sideNav{
+        padding: 6px;
+        position: fixed;
+        top: 78px;
+    }
+    
+    .side{
+        display: flex;
+    }
+    .side a{
+        font-size: 10px;
+    }
+    .hidden{
+        display: none;
+
+    }
+    .showing{
+        display: block;
+    }
+    .show{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    svg{
+        width: 20px;
+        height: 20px;
+    }
+    .dot div{
+        margin:5px auto ;
+    }
+    .sec1{
+        text-align: justify;
+        display: flex;
+        padding:40px 10px;
+        padding-left: 55px;
+    }
+    .refferal p{
+        color: aliceblue;
+        font-size: 11px;
+    }
+    .wallet input{
+        padding: 7px;
+        font-size: 10px;
+    }
+    .sec2{
+        width: 80%;
+        margin:0 auto;
+        margin-right: 10px;
+        /* margin: 40px; */
+        margin-top: 0px;
+        padding: 30px;
+        padding-bottom: 5px;
+        border-radius: 6px;
+        z-index: -10;
+    }
+    .flex{
+        margin-top: 10px;
+    }
+    .flex div{
+        padding: 10px;
+        border-radius: 1px 7px;
+        font-size: 10px;
+    }
+    .greet{
+        text-align: left;
+    
+    }
+    .greet p{
+        border-bottom: 2px solid rgb(214, 170, 170);
+    }
+    .package{
+        margin-top: 20px;
+    }
+    .wema{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .uba{
+        border: none;
+        padding: 5px;
+        font-size: 10px;
+        border-radius:2px 7px;
+    }
+    .btn{
+        margin-top: 10px;
+    }
+    .sec3{
+        width: 80%;
+        margin: auto;
+        margin-top: -28px;
+        margin-right: 35px;
+        padding: 30px;
+        border-radius: 6px;
+        z-index: -10;
+
+    }
+    .details{
+        color: aliceblue;
+    }
+    .details p{
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .fade{
+        margin-top: 15px;
+    }
+    .charge{
+        display: flex;
+        justify-content: space-between;
+    }
+    .percent{
+        color: aliceblue;
+    }
+    .cha{
+        font-size: 10px;
+    
+    }
+    .sec4{
+        background-color: rgb(243, 241, 243);
+        width: 80%;
+        margin: auto;
+        margin-right: 35px;
+        margin-top: -10px;
+        padding: 20px 10px;
+        border-radius: 10px;
+        z-index: -10;
+    
+    }
+    marquee{
+        font-size: 10px;
+    }
+    #happy{
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: -4px;
+        width: 15px;
+        height: 15px;
+    }
+    .trans{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .trans div{
+        background-color: rgb(252, 253, 253);
+        padding: 1px;
+        color: rgb(54, 49, 49);
+    }
+    .icon1 svg{
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        border-radius: 7px;
+        margin-top: -10px;
+    
+    }
+    .icon1{
+        border-radius: 7px;
+    }
+    .icon2 svg{
+        border-radius: 7px;
+        width: 30px;
+        padding: 2px;
+        height: 30px;  
+        margin-top: -10px;
+  
+    }
+    .icon2{
+        background-color: rgb(55, 58, 182);
+        padding: 2px;
+        border-radius: 7px;
+    }
+    .icon3 svg{
+        border-radius: 7px;
+        width: 30px;
+        padding: 2px;
+        height: 30px;
+        margin-top: -10px;
+
+    }
+    .icon4 svg{
+        border-radius: 7px;
+        width: 30px;
+        padding: 2px;
+        height: 30px;
+        margin-top: -10px;
+    
+    }
+    .trans div{
+        display: flex;
+        margin-top: 15px;
+        width: 49%;
+        font-size: 10px;
+
+    }
+    .trans div > p{
+        margin-top: 10px;
+    }
+    .icn1 svg{
+        width: 40px;
+        padding: 6px;
+        height: 40px;
+    
+    }
+    .icn2 svg{
+        width: 40px;
+        padding: 6px;
+        height: 40px;
+    
+    }
+    .icn3 svg{
+        border-radius: 7px;
+        width: 40px;
+        padding: 6px;
+        height: 40px;
+    
+    }
+    .bonus{
+        padding: 10PX 30px;
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+        
+    }
+    .bonus p:nth-child(1){
+        margin-top: 10px;
+    }
+    .plan{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 98%;
+        margin: auto;
+        
+    
+    }
+    .sec5{
+        width: 80%;
+        margin: auto;
+        margin-right: 35px;
+        padding: 10px;
+    }
+    .sec6{
+        width: 90%;
+        display: flex; 
+         flex-wrap: wrap;
+        justify-content: space-around; 
+        margin-top: 20px;
+        margin: auto;
+        margin-right: 20px;
+    }
+    .faq{
+        width: 38%;
+        background-color: rgb(133, 37, 133);
+        padding:15px;
+        border-radius: 2px 6px;
+        margin: 10px ;
+        /* clear: both; */
+    }
+    .app a{
+        padding: 6px;
+        border-radius: 7px;
+        margin-top: 10px;
+        font-size: 10px;
+        width: auto;
+    }
+    .faq span{
+        font-size: 10px;
+    }
+    .faq p{
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .faq1 a{
+        padding: 8px;
+        font-size: 10px;
+    
+    }
+    .faq1{
+        margin-top: 20px;
+    }
+    .not a{
+        background-color: gold;
+        padding: 7px;
+        font-size: 10px;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+        /* margin-left: 50px; */
+    }
+    .box{
+        width: 45%;
+        padding: 20px;
+        border-radius: 7px;
+    }
+    .box a{
+        font-size: 13px;
+    }
+    .imag{
+        width: 80px;
+        height: 80px;
+        margin: auto;
+    }
+}
