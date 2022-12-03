@@ -1,0 +1,618 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.nav1{
+    background-color: rgb(167, 70, 167);
+    width: 100%;
+    padding:10px 25px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    color: aliceblue;
+}
+.nav1 h3{
+    margin: 0;
+}
+.signout{
+    margin: 0;
+}
+.signout a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+#sideNav{
+    background-color: rgb(2, 2, 26);
+    padding: 10px;
+    width: auto;
+    position: fixed;
+    top: 60px;
+    justify-content: center;
+}
+.side{
+    display: flex;
+}
+.hidden{
+    display: block;
+
+}
+.showing{
+    display: block;
+}
+
+.side:hover{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+}
+.side a{
+    color: rgb(242, 246, 250);
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+/* .side a:hover{
+    color: gold;
+    text-decoration: underline;
+} */
+/* .side a:visited{
+    color: rgb(44, 172, 44);
+} */
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+svg{
+    width: 30px;
+    height: 30px;
+    color: whitesmoke;
+    margin: 10px;
+}
+/* svg:hover{
+    color: black;
+} */
+.dot div{
+    width: 15px;
+    height: 2px;
+    /* border-radius: 100%; */
+    color: white;
+    background-color: white;
+    margin:5px auto ;
+}
+main{
+    margin-top: 70px;
+    z-index: -10;
+    width: 100%;
+}
+.section1{
+    width: auto;
+    margin-right: 80px;
+}
+.section2{
+    width: 80%;
+    padding: 30px;
+    /* display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; */
+    margin-bottom: 40px;
+    margin: auto;
+    /* margin-left: 50px; */
+}
+.section2 p{
+    margin-bottom: 40px ;
+    margin-left: 200px;
+    color: rgb(121, 36, 121);
+
+    
+}
+.buy{
+    width: 70%;
+    padding: 40px;
+    background-color: rgb(250, 245, 240);
+    border: 1px solid rgb(248, 237, 237);
+}
+label{
+    margin-left: 10px;
+    width: 10%;
+}
+#num{
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    padding: 7px;
+}
+.fill{
+    margin-top: 10px;
+}
+select{
+    width: 100%;
+    margin: auto;
+    border-radius: 2px;
+    margin-top: 10px ;
+    padding: 5px;
+    border: none;
+}
+.code{
+    width: 28%;
+
+}
+.check{
+    margin: 15px 0;
+}
+.btn{
+    padding: 7px;
+    background-color: blue;
+    border: navy;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    margin-left: 250px;
+
+}
+.mtn{
+    margin: 2px;
+    background-color: rgb(218, 203, 2);
+    color: rgb(63, 56, 56);
+    padding: 7px;
+}
+.airtel{
+    margin: 2px;
+    background-color: rgb(211, 83, 33);
+    color: rgb(70, 62, 62);
+    padding: 7px;
+}
+.eti{
+    margin: 2px;
+    background-color: rgb(187, 187, 118);
+    color: rgb(0, 68, 255);
+    padding: 7px;
+}
+.glo{
+    margin: 2px;
+    background-color: rgb(70, 172, 92);
+    color: rgb(245, 238, 238);
+    padding: 7px;
+}
+
+footer{
+    margin-top: 50px;
+}
+.contact{
+    display: flex;
+}
+.contact img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.insta{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+
+}
+.flex2{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.flex2 .footer1{
+    width: 33%;
+    list-style: none;
+    display: block;
+
+}
+.footer1 a{
+    color: white;
+    display: block;
+    font-size: 17px;
+
+}
+.footer2 a{
+    color: white;
+    display: block;
+
+}
+
+@media(max-width:768px){
+    *{
+        font-size: 14px;
+    }
+    .nav1{
+        padding:10px 20px;
+        justify-content: space-between;
+
+    }
+    /* .message{
+        /* margin:0 15px; */
+        /* text-align: center; */
+    
+    .message h3{
+        font-size: 15px;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .message p{
+        margin-top: -10px;
+        font-size: 14px;
+    }
+
+    .signout a{
+        margin-right: 0px;
+        text-decoration: none;
+        font-size: 14px;
+        /* text-align: right;
+        justify-self: end; */
+    }
+    
+    svg{
+        width: 25px;
+        height: 25px;
+        color: whitesmoke;
+        margin: 10px;
+    }
+    .side-nav{
+        padding: 10px;
+        top: 30px;
+    }
+    .showing{
+        display: block;
+    }
+    .hidden{
+        display: none;
+    }
+    main{
+        margin-top: 60px;
+        z-index: -10;
+        width: 100%;
+     }
+     .section1{
+        width: auto;
+        margin-right: 10px;
+    }
+    .section2{
+        width: 80%;
+        padding: 30px;
+        /* display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between; */
+        margin-bottom: 40px;
+        margin: auto;
+        /* margin-left: 50px; */
+    }
+    .section2 p{
+        margin-bottom: 40px ;
+        margin-left: 150px;
+        color: rgb(121, 36, 121);
+    
+        
+    }
+    
+    .buy{
+        width: 90%;
+        padding: 40px;
+        background-color: rgb(250, 245, 240);
+        border: 1px solid rgb(248, 237, 237);
+    }
+    label{
+        margin-left: 10px;
+        width: 10%;
+    }
+    #num{
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .fill{
+        margin-top: 10px;
+    }
+    select{
+        width: 100%;
+        margin: auto;
+        border-radius: 2px;
+        margin-top: 10px ;
+        padding: 5px;
+        border: none;
+    }
+    .code{
+        width: 28%;
+    
+    }
+    .check{
+        margin: 15px 0;
+    }
+    .btn{
+        padding: 7px;
+        background-color: blue;
+        border: navy;
+        border-radius: 3px;
+        margin: auto;
+        margin-top: 20px;
+        color: white;
+        margin-left: 150px;
+    
+    }
+    .mtn{
+        margin: 2px;
+        background-color: rgb(218, 203, 2);
+        color: rgb(63, 56, 56);
+        padding: 7px;
+    }
+    .airtel{
+        margin: 2px;
+        background-color: rgb(211, 83, 33);
+        color: rgb(70, 62, 62);
+        padding: 7px;
+    }
+    .eti{
+        margin: 2px;
+        background-color: rgb(187, 187, 118);
+        color: rgb(0, 68, 255);
+        padding: 7px;
+    }
+    .glo{
+        margin: 2px;
+        background-color: rgb(70, 172, 92);
+        color: rgb(245, 238, 238);
+        padding: 7px;
+    }
+    
+
+    .contact{
+        display: flex;
+    }
+    .contact img{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+    .insta{
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+    
+    }
+    .flex2{
+        background-color: black;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px 0;
+    }
+    .flex2 .footer1{
+        width: 33%;
+        list-style: none;
+        display: block;
+    
+    }
+    .footer1 a{
+        color: white;
+        display: block;
+        font-size: 17px;
+    
+    }
+    .footer2 a{
+        font-size: 17px;
+        color: white;
+        display: block;
+    
+    }
+    }
+
+    @media(max-width:400px){
+        *{
+            font-size: 12px;
+        }
+    
+        .nav1{
+            padding:10px ;
+            justify-content: space-between;
+    
+        }
+        .message{
+            margin:0 15px;
+            text-align: center;
+        }
+        .message h3{
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+        .message p{
+            margin-top: -10px;
+            font-size: 12px;
+        }
+    
+        .signout a{
+            /* margin-right: 10px; */
+            text-decoration: none;
+            font-size: 12px;
+        }
+        
+        svg{
+            width: 20px;
+            height: 20px;
+            color: whitesmoke;
+            margin: 10px;
+        }
+        #sideNav{
+            padding: 6px;
+            position: fixed;
+            top: 78px;
+        }
+        
+        .side{
+            display: flex;
+        }
+        .side a{
+            font-size: 10px;
+        }
+        .hidden{
+            display: none;
+    
+        }
+        .showing{
+            display: block;
+        }
+        .show{
+            display: block;
+        }
+        .hide{
+            display: none;
+        }
+        svg{
+            width: 20px;
+            height: 20px;
+        }
+        .dot div{
+            margin:5px auto ;
+        }
+        .section1{
+            width: auto;
+            margin-right: 10px;
+        }
+        .section2{
+            width: 97%;
+            padding: 30px;
+            display: block;
+            /* margin-left: 50px; */
+        }
+        .section2 p{
+            margin-bottom: 40px ;
+            margin-left: 100px;
+            color: rgb(121, 36, 121);
+        
+            
+        }   
+        .buy{
+            width: 100%;
+            padding: 20px;
+        }
+        label{
+            margin-left: 0px;
+            width: auto;
+        }
+        #num{
+            width: 100%;
+            margin: auto;
+            margin-top: 10px;
+        }
+        .fill{
+            margin-top: 10px;
+        }
+        select{
+            width: 100%;
+            margin: auto;
+            border-radius: 2px;
+            margin-top: 10px ;
+            padding: 5px;
+            border: none;
+        }
+        .code{
+            width: 80%;
+            margin: auto;
+            margin-bottom: 40px;
+        
+        }
+        .check{
+            margin: 15px 0;
+        }
+        .btn{
+            padding: 7px;
+            background-color: blue;
+            border: navy;
+            border-radius: 3px;
+            margin: auto;
+            margin-top: 20px;
+            color: white;
+            margin-left: 110px;
+        
+        }
+        .mtn{
+            margin: 2px;
+            background-color: rgb(218, 203, 2);
+            color: rgb(63, 56, 56);
+            padding: 7px;
+        }
+        .airtel{
+            margin: 2px;
+            background-color: rgb(211, 83, 33);
+            color: rgb(70, 62, 62);
+            padding: 7px;
+        }
+        .eti{
+            margin: 2px;
+            background-color: rgb(187, 187, 118);
+            color: rgb(0, 68, 255);
+            padding: 7px;
+        }
+        .glo{
+            margin: 2px;
+            background-color: rgb(70, 172, 92);
+            color: rgb(245, 238, 238);
+            padding: 7px;
+        }
+        
+        .contact{
+            display: flex;
+        }
+        .contact img{
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+        }
+        .insta{
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+        
+        }
+        .flex2{
+            background-color: black;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px 0;
+        }
+        .flex2 .footer1{
+            width: 90%;
+            list-style: none;
+            display: block;
+        
+        }
+        .flex2 .footer2{
+            width: 90%;
+            list-style: none;
+            display: block;
+        
+        }
+        footer{
+            margin-top: 50px;
+        }
+        
+        .footer1 a{
+            color: white;
+            display: block;
+            font-size: 17px;
+        
+        }
+        .footer2 a{
+            font-size: 17px;
+            color: white;
+            display: block;
+        
+        }
+    }

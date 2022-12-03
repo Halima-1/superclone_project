@@ -80,24 +80,24 @@
 }
 
 .side:hover{
-    background-color: aliceblue;
+    background-color: rgb(86, 138, 184);
     color: black;
     border-radius: 10px;
 }
 .side a{
-    color: rgb(15, 83, 143);
+    color: rgb(242, 246, 250);
     font-size: 15px;
     text-decoration: none;
     margin-top: 12px;
     text-transform: capitalize;
 }
-.side a:hover{
+/* .side a:hover{
     color: gold;
     text-decoration: underline;
 }
 .side a:visited{
     color: rgb(44, 172, 44);
-}
+} */
 .show{
     display: block;
 }
@@ -110,9 +110,9 @@ svg{
     color: whitesmoke;
     margin: 10px;
 }
-svg:hover{
+/* svg:hover{
     color: black;
-}
+} */
 .dot div{
     width: 15px;
     height: 2px;
