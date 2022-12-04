@@ -99,9 +99,6 @@ main{
 .section2{
     width: 80%;
     padding: 30px;
-    /* display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between; */
     margin-bottom: 40px;
     margin: auto;
     /* margin-left: 50px; */
@@ -116,8 +113,9 @@ main{
 .buy{
     width: 70%;
     padding: 40px;
-    background-color: rgb(250, 245, 240);
+    background-color: rgb(245, 234, 223);
     border: 1px solid rgb(248, 237, 237);
+    box-shadow: 1px 1px 2px;
 }
 label{
     margin-left: 10px;
@@ -218,11 +216,17 @@ footer{
     color: white;
     display: block;
     font-size: 17px;
+    text-decoration: none;
+    margin-top: 10px;
+
 
 }
 .footer2 a{
     color: white;
     display: block;
+    text-decoration: none;
+    margin-top: 10px;
+
 
 }
 
